@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/payment.css" />
+    <title>PAYMENT</title>
+  </head>
+  <body>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="./index.html" class="active">BRAINCODE</a>
+      <div id="myLinks">
+        <a href="about-us.html">ABOUT US</a>
+        <a href="courses.html">COURSES</a>
+        <a href="contact-us.html">CONTACT</a>
+        <a href="./shopping-cart.html">CART</a>
+        <a href="./login.html">LOGIN</a>
+      </div>
+      <a href="#" class="icon" onclick="mobileMenu()">
+        <img src="./img/mobileIcon.png" alt="" />
+      </a>
+    </div>
+    <!-- menu nav -->
+    <div class="menuBar" id="menuBar">
+      <div class="menuBarNav">
+        <a href="index.html"> <img id="logo" src="./img/logo.png" alt="" /></a>
+        <nav id="btnContainer">
+          <ul>
+            <li>
+              <a href="index.html" class="hover-border-3 btn">HOME</a>
+            </li>
+            <li>
+              <a href="about-us.html" class="hover-border-3 btn">ABOUT US</a>
+            </li>
+            <li class="dropdown">
+              <a href="courses.html" class="hover-border-3 btn">COURSES</a>
+              <div class="dropdown-content">
+                <ul>
+                  <li><a href="./courses/python.html">Python</a></li>
+                  <li><a href="./courses/javaScript.html">JavaScript</a></li>
+                  <li><a href="./courses/C++.html">C++</a></li>
+                  <li><a href="./courses/java.html">Java</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="contact-us.html" class="hover-border-3">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="icons">
+          <a href="shopping-cart.html">
+            <img
+              class="filter-color-white item1"
+              src="./img/cart-svgrepo-com.svg"
+              alt=""
+            />
+          </a>
+          <a href="./login.html">
+            <img
+              class="filter-color-white item2"
+              src="./img/user-svgrepo-com.svg"
+              alt=""
+          /></a>
+        </div>
+        <div class="callMe">
+          <a href="tel:+60149383362">
+            <img
+              class="filter-color-white item3"
+              src="./img/phone-svgrepo-com.svg"
+              alt=""
+            />
+            <div class="callMeText">
+              <span class="firstText">CALL ANYTIME</span>
+              <span class="secondText">+60149383362</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- subpage-banner section -->
+    <div class="subpage-banner">
+      <div class="container banner-container">
+        <h2>
+          PAYMENT
+          <span class="text-higlight">.</span>
+        </h2>
+      </div>
+    </div>
+
+    <!-- payment section-->
+    <div class="paymentSection">
+      <div class="payment">
+        <div class="payment_1">
+          <div class="container">
+            <form action="paymentsuccessful.html">
+              <div class="payment">
+                <div class="form">
+                  <h3>Payment Details</h3>
+                  <label for="fname">First Name</label>
+                  <input
+                    type="text"
+                    id="fname"
+                    name="firstname"
+                    placeholder="Zhi Hao"
+                    required
+                  />
+                  <label for="fname">Last Name</label>
+                  <input
+                    type="text"
+                    id="lname"
+                    name="lastname"
+                    placeholder="Tan"
+                    required
+                  />
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="alan1234@gmail.com"
+                    required
+                  />
+                  <label for="adr">Address</label>
+                  <input
+                    type="text"
+                    id="adr"
+                    name="address"
+                    placeholder="Kampus Utama"
+                    required
+                  />
+                  <input
+                    type="text"
+                    id="adr"
+                    name="address"
+                    placeholder="Jalan Genting Kelang"
+                    required
+                  />
+                  <label for="postcode">Postcode </label>
+                  <input
+                    type="text"
+                    id="Postcode"
+                    name="Postcode"
+                    placeholder="53300 "
+                    required
+                    pattern="\d{5}"
+                  />
+                  <label for="city">City</label>
+                  <input
+                    type="text"
+                    id="city"
+                    name="city"
+                    placeholder="Setapak"
+                    required
+                  />
+                  <label for="state">State</label>
+                  <select>
+                    <option value="option1">Johor</option>
+                    <option value="option2">Kedah</option>
+                    <option value="option3">Kelantan</option>
+                    <option value="option4">Malacca</option>
+                    <option value="option5">Negeri Sembilan</option>
+                    <option value="option6">Pahang</option>
+                    <option value="option7">Penang</option>
+                    <option value="option8">Perak</option>
+                    <option value="option9">Perlis</option>
+                    <option value="option10">Selangor</option>
+                    <option value="option11">Sabah</option>
+                    <option value="option12">Sarawak</option>
+                    <option value="option13">Terengganu</option>
+                  </select>
+                </div>
+                <div class="form">
+                  <div class="icon-creditcard">
+                    <p>Accepted Cards</p>
+                    <img src="./img/Picture6.png" />
+                  </div>
+                  <label for="cname">Cardholder Name</label>
+                  <input
+                    type="text"
+                    id="cname"
+                    name="cardname"
+                    placeholder="John More Doe"
+                    required
+                  />
+                  <label for="ccnum">Card number</label>
+                  <input
+                    type="text"
+                    id="ccnum"
+                    name="cardnumber"
+                    placeholder="1111-2222-3333-4444"
+                    required
+                    pattern="^\d{4}-\d{4}-\d{4}-\d{4}$"
+                  />
+                  <label for="expmonth">Exp Month/Year</label>
+                  <input
+                    type="text"
+                    id="expmonth/year"
+                    name="expmonth/year"
+                    placeholder="01/23"
+                    required
+                    pattern="^(0[1-9]|1[0-2])\/\d{2}$"
+                  />
+                  <div>
+                    <label for="cvv">CVV</label>
+                    <input
+                      type="text"
+                      id="cvv"
+                      name="cvv"
+                      placeholder="123"
+                      required
+                      maxlength="3"
+                      pattern="^\d{3}$"
+                    />
+                  </div>
+                </div>
+              </div>
+              <label>
+                <input type="checkbox" name="terms_agreement" required /> I have
+                read and agree to the terms and conditions of DUITNOW
+              </label>
+              <input type="submit" value="Payment" class="btn" \ />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section-->
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footer1">
+            <p style="padding-bottom: 20px; font-weight: bold">
+              COMPANY <span class="text-higlight">.</span>
+            </p>
+            <p><a href="about-us.html">About us</a></p>
+            <p><a href="hire-graduate.html">Hire graduate</a></p>
+            <p><a href="career.html">Career</a></p>
+            <p><a href="contact-us.html">Contact us</a></p>
+            <p><a href="live-chat.html">Live chat</a></p>
+            <div class="socials">
+              <a href="#" class="socialHref"
+                ><img
+                  class="filter-color-white socialIcons"
+                  src="./img/facebook-176-svgrepo-com.svg"
+                  alt=""
+              /></a>
+              <a href="#" class="socialHref"
+                ><img
+                  class="filter-color-white socialIcons"
+                  src="./img/twitter-154-svgrepo-com.svg"
+                  alt=""
+              /></a>
+              <a href="#" class="socialHref"
+                ><img
+                  class="filter-color-white socialIcons"
+                  src="./img/instagram-167-svgrepo-com.svg"
+                  alt=""
+              /></a>
+              <a href="#" class="socialHref"
+                ><img
+                  class="filter-color-white socialIcons"
+                  src="./img/youtube-svgrepo-com.svg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="footer1">
+            <p style="padding-bottom: 20px; font-weight: bold">
+              POPULAR COURSES <span class="text-higlight">.</span>
+            </p>
+            <p>
+              <a href="./courses/python/linear-data-structures.html"
+                >Linear Data Structures
+              </a>
+            </p>
+            <p>
+              <a href="./courses/javascript/learn-javaScript.html"
+                >Learn JavaScript
+              </a>
+            </p>
+            <p>
+              <a href="./courses/c++/learn-c++-functions.html"
+                >Learn C++ Functions
+              </a>
+            </p>
+            <p>
+              <a href="./courses/java/learn-advanced-java.html"
+                >Learn Advanced Java
+              </a>
+            </p>
+          </div>
+          <div class="footer1">
+            <p
+              style="padding-bottom: 20px; font-weight: bold"
+              class="footer1-title"
+            >
+              LANGUANGES <span class="text-higlight">.</span>
+            </p>
+            <p><a href="/courses/c++.html">C++</a></p>
+            <p><a href="/courses/python.html">Python</a></p>
+            <p><a href="/courses/javascript.html">JavaScript</a></p>
+            <p><a href="/courses/java.html">Java</a></p>
+          </div>
+        </div>
+        <div class="footer_end">
+          <div class="footer2">
+            <div class="footerText1">
+              <a href="./privacy-policy.html">Privacy Policy</a>
+              <a href="./terms-and-conditions.html">Terms & conditions</a>
+            </div>
+            <div class="footerText2">
+              <span>Made with &#10084; from BRAINCODE &#169; 2023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

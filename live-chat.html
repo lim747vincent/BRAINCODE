@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/liveChat.css" />
+    <title>LIVE CHAT</title>
+  </head>
+  <body>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="./index.html" class="active">BRAINCODE</a>
+      <div id="myLinks">
+        <a href="about-us.html">ABOUT US</a>
+        <a href="courses.html">COURSES</a>
+        <a href="contact-us.html">CONTACT</a>
+        <a href="./shopping-cart.html">CART</a>
+        <a href="./login.html">LOGIN</a>
+      </div>
+      <a href="#" class="icon" onclick="mobileMenu()">
+        <img src="./img/mobileIcon.png" alt="" />
+      </a>
+    </div>
+
+    <!-- menu nav -->
+    <div class="menuBar" id="menuBar">
+      <div class="menuBarNav">
+        <a href="index.html"> <img id="logo" src="./img/logo.png" alt="" /></a>
+        <nav id="btnContainer">
+          <ul>
+            <li>
+              <a href="index.html" class="hover-border-3 btn">HOME</a>
+            </li>
+            <li>
+              <a href="about-us.html" class="hover-border-3 btn">ABOUT US</a>
+            </li>
+            <li class="dropdown">
+              <a href="courses.html" class="hover-border-3 btn">COURSES</a>
+              <div class="dropdown-content">
+                <ul>
+                  <li><a href="./courses/python.html">Python</a></li>
+                  <li><a href="./courses/javaScript.html">JavaScript</a></li>
+                  <li><a href="./courses/C++.html">C++</a></li>
+                  <li><a href="./courses/java.html">Java</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="./contact-us.html" class="hover-border-3">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="icons">
+          <a href="shopping-cart.html">
+            <img
+              class="filter-color-white item1"
+              src="./img/cart-svgrepo-com.svg"
+              alt=""
+            />
+          </a>
+          <a href="./login.html">
+            <img
+              class="filter-color-white item2"
+              src="./img/user-svgrepo-com.svg"
+              alt=""
+          /></a>
+        </div>
+        <div class="callMe">
+          <a href="tel:+60149383362">
+            <img
+              class="filter-color-white item3"
+              src="./img/phone-svgrepo-com.svg"
+              alt=""
+            />
+            <div class="callMeText">
+              <span class="firstText">CALL ANYTIME</span>
+              <span class="secondText">+60149383362</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- subpage-banner section -->
+    <div class="subpage-banner">
+      <div class="container banner-container">
+        <h2>LIVE CHAT <span class="text-higlight">.</span></h2>
+      </div>
+    </div>
+
+    <!-- live chat section -->
+    <div class="liveChatSection">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+      <div class="box4"></div>
+      <div class="box5"></div>
+      <div class="box6"></div>
+      <div class="container">
+        <div class="liveChatContainer">
+          <iframe
+            allow="microphone;"
+            height="400px"
+            width="400px"
+            src="https://console.dialogflow.com/api-client/demo/embedded/120b55a4-288e-4990-bd50-af5d4852c51f"
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section-->
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footer1">
+            <p style="padding-bottom: 20px; font-weight: bold">
+              COMPANY <span class="text-higlight">.</span>
+            </p>
+            <p><a href="about-us.html">About us</a></p>
+            <p><a href="hire-graduate.html">Hire graduate</a></p>
+            <p><a href="career.html">Career</a></p>
+            <p><a href="contact-us.html">Contact us</a></p>
+            <p><a href="live-chat.html">Live chat</a></p>
+            <div class="socials">
+              <a href="#" class="socialHref"
+                ><img
+                  class="filter-color-white socialIcons"
+                  src="./img/facebook-176-svgrepo-com.svg"
+                  alt=""
+              /></a>
+              <a href="#" class="socialHref"
+                ><img
+                  class="filter-color-white socialIcons"
+                  src="./img/twitter-154-svgrepo-com.svg"
+                  alt=""
+              /></a>
+              <a href="#" class="socialHref"
+                ><img
+                  class="filter-color-white socialIcons"
+                  src="./img/instagram-167-svgrepo-com.svg"
+                  alt=""
+              /></a>
+              <a href="#" class="socialHref"
+                ><img
+                  class="filter-color-white socialIcons"
+                  src="./img/youtube-svgrepo-com.svg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="footer1">
+            <p style="padding-bottom: 20px; font-weight: bold">
+              POPULAR COURSES <span class="text-higlight">.</span>
+            </p>
+            <p>
+              <a href="./courses/python/linear-data-structures.html"
+                >Linear Data Structures
+              </a>
+            </p>
+            <p>
+              <a href="./courses/javascript/learn-javaScript.html"
+                >Learn JavaScript
+              </a>
+            </p>
+            <p>
+              <a href="./courses/c++/learn-c++-functions.html"
+                >Learn C++ Functions
+              </a>
+            </p>
+            <p>
+              <a href="./courses/java/learn-advanced-java.html"
+                >Learn Advanced Java
+              </a>
+            </p>
+          </div>
+          <div class="footer1">
+            <p
+              style="padding-bottom: 20px; font-weight: bold"
+              class="footer1-title"
+            >
+              LANGUANGES <span class="text-higlight">.</span>
+            </p>
+            <p><a href="./courses/c++.html">C++</a></p>
+            <p><a href="./courses/python.html">Python</a></p>
+            <p><a href="./courses/javascript.html">JavaScript</a></p>
+            <p><a href="./courses/java.html">Java</a></p>
+          </div>
+        </div>
+        <div class="footer_end">
+          <div class="footer2">
+            <div class="footerText1">
+              <a href="./privacy-policy.html">Privacy Policy</a>
+              <a href="./terms-and-conditions.html">Terms & conditions</a>
+            </div>
+            <div class="footerText2">
+              <span>Made with &#10084; from BRAINCODE &#169; 2023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+/* subpage-banner section */
+.subpage-banner {
+  background: #1c1c20 url("../img/subpage-banner.png");
+  background-repeat: no-repeat;
+  background-position: 50% 52%;
+  background-size: cover;
+  height: 40vh;
+}
+
+.subpage-banner .banner-container {
+  height: 140%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subpage-banner h2 {
+  color: #fff;
+}
+
+/* live chat */
+.liveChatSection {
+  background: #1c1c20 url("../img/background-pattern.png");
+  padding: 50px 0;
+}
+
+.liveChatContainer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.liveChatContainer {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* animation border radius */
+.liveChatSection {
+  position: relative;
+  overflow: hidden;
+}
+
+.liveChatSection .box1 {
+  position: absolute;
+  top: -15%;
+  left: -7%;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  animation: morphing 20s infinite;
+  overflow: hidden;
+}
+
+.liveChatSection .box2 {
+  position: absolute;
+  z-index: 0;
+  bottom: -10%;
+  left: 7%;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  background-color: #ff4e00;
+  background-image: linear-gradient(120deg, #ff4e00 0%, #ec9f05 74%);
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  animation: morphing2 12s infinite;
+  transition: all 1s ease-in-out;
+  overflow: hidden;
+}
+
+.liveChatSection .box3 {
+  position: absolute;
+  z-index: 0;
+  bottom: 0%;
+  left: 47%;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  background-color: #ff4e00;
+  background-image: linear-gradient(65deg, #ff4e00 0%, #ec9f05 74%);
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  animation: morphing2 10.5s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+  overflow: hidden;
+}
+
+.liveChatSection .box4 {
+  position: absolute;
+  z-index: 0;
+  top: 3%;
+  left: 37%;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  background-color: #ff4e00;
+  background-image: linear-gradient(230deg, #ff4e00 0%, #ec9f05 74%);
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  animation: morphing 9s infinite;
+  overflow: hidden;
+}
+
+.liveChatSection .box5 {
+  position: absolute;
+  z-index: 0;
+  top: 3%;
+  right: 7%;
+  width: 130px;
+  height: 130px;
+  margin: auto;
+  background-color: #ff4e00;
+  background-image: linear-gradient(20deg, #ff4e00 0%, #ec9f05 74%);
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  animation: morphing2 10s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+  overflow: hidden;
+}
+
+.liveChatSection .box6 {
+  position: absolute;
+  z-index: 0;
+  bottom: 13%;
+  right: -7%;
+  width: 230px;
+  height: 230px;
+  margin: auto;
+  background-color: #ff4e00;
+  background-image: linear-gradient(220deg, #ff4e00 0%, #ec9f05 74%);
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  animation: morphing 15s infinite;
+  overflow: hidden;
+}
+
+@keyframes morphing {
+  0% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  }
+  25% {
+    border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
+  }
+  50% {
+    border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
+    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+  }
+  75% {
+    border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;
+  }
+}
+
+@keyframes morphing2 {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+  }
+  105% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+/* 390 * 844 */
+@media screen and (max-width: 391px) {
+  .subpage-banner {
+    height: 20vh;
+  }
+}

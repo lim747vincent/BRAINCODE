@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>BRAINCODE</title>
+  </head>
+  <body>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="./index.html" class="active">BRAINCODE</a>
+      <div id="myLinks">
+        <a href="about-us.html">ABOUT US</a>
+        <a href="courses.html">COURSES</a>
+        <a href="contact-us.html">CONTACT</a>
+        <a href="./shopping-cart.html">CART</a>
+        <a href="./login.html">LOGIN</a>
+      </div>
+      <a href="#" class="icon" onclick="mobileMenu()">
+        <img src="./img/mobileIcon.png" alt="" />
+      </a>
+    </div>
+
+    <!-- menu nav -->
+    <div class="menuBar" id="menuBar">
+      <div class="menuBarNav">
+        <a href="index.html"> <img id="logo" src="./img/logo.png" alt="" /></a>
+        <nav id="btnContainer">
+          <ul>
+            <li>
+              <a href="index.html" class="hover-border-3 btn menu-active"
+                >HOME</a
+              >
+            </li>
+            <li>
+              <a href="about-us.html" class="hover-border-3 btn">ABOUT US</a>
+            </li>
+            <li class="dropdown">
+              <a href="courses.html" class="hover-border-3 btn">COURSES</a>
+              <div class="dropdown-content">
+                <ul>
+                  <li><a href="./courses/python.html">Python</a></li>
+                  <li><a href="./courses/javaScript.html">JavaScript</a></li>
+                  <li><a href="./courses/C++.html">C++</a></li>
+                  <li><a href="./courses/java.html">Java</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="contact-us.html" class="hover-border-3">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="icons">
+          <a href="./shopping-cart.html">
+            <img
+              class="filter-color-white item1"
+              src="./img/cart-svgrepo-com.svg"
+              alt=""
+            />
+          </a>
+          <a href="./login.html">
+            <img
+              class="filter-color-white item2"
+              src="./img/user-svgrepo-com.svg"
+              alt=""
+          /></a>
+        </div>
+        <div class="callMe">
+          <a href="tel:+60149383362">
+            <img
+              class="filter-color-white item3"
+              src="./img/phone-svgrepo-com.svg"
+              alt=""
+            />
+            <div class="callMeText">
+              <span class="firstText">CALL ANYTIME</span>
+              <span class="secondText">+60149383362</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- hero section -->
+    <div class="hero">
+      <img class="item1" src="./img/hero1.png" alt="" />
+      <img class="item2" src="./img/hero1.png" alt="" />
+      <img class="item3" src="./img/hero2.png" alt="" />
+      <img class="item4" src="./img/hero2.png" alt="" />
+      <img class="item5" src="./img/hero2.png" alt="" />
+      <img class="item6" src="./img/hero1.png" alt="" />
+      <ul class="social-links">
+        <li><a href="#" class="hover-border-3">FACEBOOK</a></li>
+        <li><a href="#" class="hover-border-3">TWITTER</a></li>
+        <li><a href="#" class="hover-border-3">LINKEDIN</a></li>
+      </ul>
+      <div class="container">
+        <div class="hero-container">
+          <div class="hero-left">
+            <h2>88% of Our Students Get Hired Within 6 Months</h2>
+            <p class="text-two">Want to know more?</p>
+            <a
+              href="https://wa.me/60149383362?text=I'm%20interested%20to%20know%20more%20about%20your%20coding%20program!"
+              class="button"
+              >FREE CONSULTATION</a
+            >
+          </div>
+          <div class="hero-right">
+            <div class="imagebox">
+              <img
+                src="./img/thisisengineering-raeng-64YrPKiguAE-unsplash.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services section-->
+    <div class="services">
+      <div class="container services-rows">
+        <div class="services-row services-row-first">
+          <div class="services-column-2-mobile">
+            <div class="services-text">
+              <h3>
+                WE PROVIDE TOP CODING<br />
+                PROGRAM <span class="text-higlight">.</span>
+              </h3>
+              <p>
+                Everything that you need to become excellent programmer can be
+                found at our services.
+              </p>
+            </div>
+          </div>
+          <div class="services-column">
+            <div class="services-card">
+              <div class="services-cardContent">
+                <h3>
+                  <a href="./courses/C++.html">
+                    C++ <br />
+                    PROGRAMMING</a
+                  >
+                </h3>
+                <p class="item1">01</p>
+                <img
+                  class="item2 filter-color"
+                  src="./img/code-alt-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="services-column">
+            <div class="services-card">
+              <div class="services-cardContent">
+                <h3>
+                  <a href="./courses/javaScript.html">
+                    JAVASCRIPT <br />
+                    PROGRAMMING</a
+                  >
+                </h3>
+                <p class="item1">02</p>
+                <img
+                  class="item2 filter-color"
+                  src="./img/code-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="services-column-2">
+            <div class="services-text">
+              <h3>
+                WE PROVIDE TOP CODING<br />
+                PROGRAM <span class="text-higlight">.</span>
+              </h3>
+              <p>
+                Everything that you need to become excellent programmer can be
+                found at our services.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="services-row">
+          <div class="services-column">
+            <div class="services-card">
+              <div class="services-cardContent">
+                <h3>
+                  <a href="./courses/python.html">
+                    PYTHON <br />
+                    PROGRAMMING</a
+                  >
+                </h3>
+                <p class="item1">03</p>
+                <img
+                  class="item2 filter-color"
+                  src="./img/computer-monitor-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="services-column">
+            <div class="services-card">
+              <div class="services-cardContent">
+                <h3>
+                  <a href="./courses/java.html">
+                    JAVA <br />
+                    PROGRAMMING</a
+                  >
+                </h3>
+                <p class="item1">04</p>
+                <img
+                  class="item2 filter-color"
+                  src="./img/internet-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="services-column">
+            <div class="services-card">
+              <div class="services-cardContent">
+                <h3>
+                  <span>
+                    C# <br />
+                    PROGRAMMING <br />(coming soon)
+                  </span>
+                </h3>
+                <p class="item1">05</p>
+                <img
+                  class="item2 filter-color"
+                  src="./img/lightbulb-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="services-column">
+            <div class="services-card">
+              <div class="services-cardContent">
+                <h3>
+                  <span>
+                    VUE <br />
+                    PROGRAMMING<br />(coming soon)</span
+                  >
+                </h3>
+                <p class="item1">06</p>
+                <img
+                  class="item2 filter-color"
+                  src="./img/alt-console-1-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- why choose us section-->
+    <div class="whyChooseUs">
+      <div class="container">
+        <div class="whyChooseUs-Box">
+          <div class="whyChooseUs-Box-Left">
+            <img
+              class="item1"
+              src="./img/thisisengineering-raeng-YXdbaTRcQzA-unsplash.jpg"
+              alt=""
+            />
+            <img
+              class="item2"
+              src="./img/possessed-photography-zbLW0FG8XU8-unsplash.jpg"
+              alt=""
+            />
+          </div>
+          <div class="whyChooseUs-Box-Right">
+            <div class="whyChooseUs-Up">
+              <h3>
+                WE'RE THE BEST CODING BOOTCAMP
+                <span class="text-higlight">.</span>
+              </h3>
+              <p>
+                BRAINCODE CONTINOUSLY HELP OUR STUDENTS TO BECOME BETTER
+                PROGRAMMER.
+              </p>
+            </div>
+            <div class="whyChooseUs-Down">
+              <div class="whyChooseUs-Card">
+                <div class="cardIconText">
+                  <img src="./img/support-svgrepo-com.svg" alt="" />
+                  <h4>Personalized Support</h4>
+                </div>
+                <div class="cardText">
+                  We offer personalized support to students, including
+                  one-on-one coaching, mentoring, and career guidance.
+                </div>
+              </div>
+              <div class="whyChooseUs-Card">
+                <div class="cardIconText">
+                  <img
+                    src="./img/learning-head-book-education-svgrepo-com.svg"
+                    alt=""
+                  />
+                  <h4>Hands-on Learning</h4>
+                </div>
+                <div class="cardText">
+                  We offer hands-on learning opportunities to help students
+                  apply the skills they have learned in real-world situations.
+                </div>
+              </div>
+              <div class="whyChooseUs-Card">
+                <div class="cardIconText">
+                  <img
+                    src="./img/instructor-lecture-with-sceen-projection-tool-svgrepo-com.svg"
+                    alt=""
+                  />
+                  <h4>Experienced Instructors</h4>
+                </div>
+                <div class="cardText">
+                  Our instructors have relevant industry experience and be able
+                  to provide high-quality instruction.
+                </div>
+              </div>
+              <div class="whyChooseUs-Card">
+                <div class="cardIconText">
+                  <img src="./img/book-svgrepo-com.svg" alt="" />
+                  <h4>Clear Learning Outcomes</h4>
+                </div>
+                <div class="cardText">
+                  Help students acquire the skills they need to succeed in their
+                  chosen field.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- checklist section-->
+    <div class="checkListSection">
+      <div class="container">
+        <div class="checkListContainer">
+          <h2>
+            SKILLS THAT YOU WILL GAIN
+            <span class="text-higlight">.</span>
+          </h2>
+          <p>
+            Following Are Skillset You Will Learn When Completing All Courses
+          </p>
+          <table class="checklist">
+            <thead>
+              <tr>
+                <th>Knowledge</th>
+                <th>Progress</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Meaningful Refactoring</td>
+                <td><input type="checkbox" checked /></td>
+              </tr>
+              <tr>
+                <td>Legacy Code and Maintenance of Codebases</td>
+                <td><input type="checkbox" checked /></td>
+              </tr>
+              <tr>
+                <td>Computer Architecture & Assembly Language</td>
+                <td><input type="checkbox" checked /></td>
+              </tr>
+              <tr>
+                <td>A Few Project Management Software</td>
+                <td><input type="checkbox" checked /></td>
+              </tr>
+              <tr>
+                <td>Version Control</td>
+                <td><input type="checkbox" checked /></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Why you should learn programming section-->
+    <div class="videoLearn">
+      <img class="videoLearnitem1" src="./img/hero1.png" alt="" />
+      <img class="videoLearnitem2" src="./img/hero1.png" alt="" />
+      <img class="videoLearnitem3" src="./img/hero1.png" alt="" />
+      <div class="container">
+        <h2>
+          WHY YOU SHOULD LEARN PROGRAMMING <span class="text-higlight">.</span>
+        </h2>
+        <p>LISTEN DETAILED EXPLANATIONS FROM THE SPEAKER</p>
+        <div class="videoBox">
+          <video
+            width="800px"
+            height="500px"
+            controls
+            poster="./img/videoCover.png"
+          >
+            <source src="./video/tedtalk.mp4" type="video/mp4" />
+            This browser doesn't support video tag.
+          </video>
+        </div>
+        <p class="audioText">HERE IS AUDIO FILE FROM ABOVE SPEAKER</p>
+        <div class="videoBox">
+          <audio controls>
+            <source src="./video/tedtalk.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+    </div>
+
+    <!-- statistic section-->
+    <div class="statistic">
+      <div class="container statistic-row scroll-to">
+        <div class="statisticCard">
+          <h2 class="text-title counter" data-target="170">0</h2>
+          <p class="text-body">NUMBER OF STUDENTS</p>
+        </div>
+        <div class="statisticCard">
+          <h2 class="text-title counter" data-target="57">0</h2>
+          <p class="text-body">CORPORATE PARTNERS</p>
+        </div>
+        <div class="statisticCard">
+          <h2 class="text-title counter" data-target="607">0</h2>
+          <p class="text-body">COMPLETED PROJECTS</p>
+        </div>
+        <div class="statisticCard">
+          <h2 class="text-title counter" data-target="25">0</h2>
+          <p class="text-body">NUMBER OF TRAINERS</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- partner review section-->
+    <div class="partnerReviewSection">
+      <div class="container">
+        <div class="parnterContainer">
+          <h2>
+            WHAT OUR PARTNERS SAID
+            <span class="text-higlight">.</span>
+          </h2>
+          <div class="sliderBox">
+            <div class="slideshow-container">
+              <div class="mySlides">
+                <q
+                  >I am extremely pleased with the quality of students coming
+                  from BRAINCODE. As a IT team lead, I have worked with several
+                  students who have attended this bootcamp, and they
+                  consistently display a strong academic foundation and
+                  excellent critical thinking skills.</q
+                >
+                <p class="author">Miles Cobb - IT team lead from APPLE</p>
+              </div>
+
+              <div class="mySlides">
+                <q>
+                  The bootcamp is focus on holistic development ensures that
+                  students not only excel academically but also grow as
+                  individuals. I highly recommend BRAINCODE for any student
+                  seeking a comprehensive and high-quality IT programs.</q
+                >
+                <p class="author">
+                  Ayden Wilkinson - senior software engineer from FACEBOOK
+                </p>
+              </div>
+
+              <div class="mySlides">
+                <q
+                  >Excellent bootcamp has consistently delivered top-notch
+                  students who have attended their programs. I have had the
+                  pleasure of working with several students who have come from
+                  there, and I am always impressed by their strong academic
+                  skills and in-depth understanding of the subjects.</q
+                >
+                <p class="author">Katie Haynes - AI engineer from GOOGLE</p>
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+
+            <div class="dot-container">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box1" id="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+    </div>
+
+    <!-- faq section-->
+    <div class="faq">
+      <div class="container">
+        <div class="faqTitle">
+          <h2>
+            FREQUENTLY ASKED QUESTIONS <span class="text-higlight">.</span>
+          </h2>
+        </div>
+        <div class="faqAccordion">
+          <button class="accordion">
+            HOW QUICKYLY CAN I FIND A JOB AFTER COMPLETE THE COURSE ?
+          </button>
+          <div class="accordion-content">
+            <p>
+              It is important to know the effectiveness of the course! On
+              average, our students managed to find a jobs wihtin 2-5 weeks. If
+              students unable to get the jobs, we will assist students to find
+              their suitable company & job.
+            </p>
+          </div>
+        </div>
+        <div class="faqAccordion">
+          <button class="accordion">
+            WHAT IS EXPECTED SALARY FOR MY FIRST JOB ?
+          </button>
+          <div class="accordion-content">
+            <p>
+              IT job salary is highly depends on your coding skills and project
+              management skills. If students able to deliver high quality codes
+              within timeframe, usually the students will be considered as high
+              performance workers. Thus, the salary is in high range category.
+              Estimated starting from RM5000.00.
+            </p>
+          </div>
+        </div>
+        <div class="faqAccordion">
+          <button class="accordion">
+            CAN I GET A REFUND IF I AM NOT SATISFIED WITH THE CODING COURSE ?
+          </button>
+          <div class="accordion-content">
+            <p>
+              No, we do not offer refund. Please check the terms and conditions
+              before enrolling. Kindly contact our support team for specific
+              details.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- call to action banner section-->
+    <div class="callToActionBanner">
+      <div class="container">
+        <div class="callToActionBox">
+          <img class="img1" src="./img/hero1.png" alt="" />
+          <img class="img2" src="./img/call-to-shape-2.2e5091a4.png" alt="" />
+          <div class="item1">
+            <h3>LET'S START YOUR PROGRESS <br />TODAY!</h3>
+          </div>
+          <div class="item2">
+            <img
+              src="./img/kindpng_2854419.png"
+              alt=""
+              usemap="#button"
+              width="50"
+              height="50"
+            />
+            <map name="button">
+              <area
+                shape="circle"
+                coords="0,0,100"
+                href="https://wa.me/60149383362?text=I%27m%20interested%20to%20know%20more%20about%20your%20coding%20program!"
+                target="_blank"
+              />
+            </map>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section-->
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footer1">
+            <p style="padding-bottom: 20px; font-weight: bold">
+              COMPANY <span class="text-higlight">.</span>
+            </p>
+            <p><a href="about-us.html">About us</a></p>
+            <p><a href="hire-graduate.html">Hire graduate</a></p>
+            <p><a href="career.html">Career</a></p>
+            <p><a href="contact-us.html">Contact us</a></p>
+            <p><a href="live-chat.html">Live chat</a></p>
+            <div class="socials">
+              <a href="#" class="socialHref"
+                ><img
+                  class="filter-color-white socialIcons"
+                  src="./img/facebook-176-svgrepo-com.svg"
+                  alt=""
+              /></a>
+              <a href="#" class="socialHref"
+                ><img
+                  class="filter-color-white socialIcons"
+                  src="./img/twitter-154-svgrepo-com.svg"
+                  alt=""
+              /></a>
+              <a href="#" class="socialHref"
+                ><img
+                  class="filter-color-white socialIcons"
+                  src="./img/instagram-167-svgrepo-com.svg"
+                  alt=""
+              /></a>
+              <a href="#" class="socialHref"
+                ><img
+                  class="filter-color-white socialIcons"
+                  src="./img/youtube-svgrepo-com.svg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="footer1">
+            <p style="padding-bottom: 20px; font-weight: bold">
+              POPULAR COURSES <span class="text-higlight">.</span>
+            </p>
+            <p>
+              <a href="./courses/python/linear-data-structures.html"
+                >Linear Data Structures
+              </a>
+            </p>
+            <p>
+              <a href="./courses/javascript/learn-javaScript.html"
+                >Learn JavaScript
+              </a>
+            </p>
+            <p>
+              <a href="./courses/c++/learn-c++-functions.html"
+                >Learn C++ Functions
+              </a>
+            </p>
+            <p>
+              <a href="./courses/java/learn-advanced-java.html"
+                >Learn Advanced Java
+              </a>
+            </p>
+          </div>
+          <div class="footer1">
+            <p
+              class="footer1-title"
+              style="padding-bottom: 20px; font-weight: bold"
+            >
+              LANGUANGES <span class="text-higlight">.</span>
+            </p>
+            <p><a href="./courses/c++.html">C++</a></p>
+            <p><a href="./courses/python.html">Python</a></p>
+            <p><a href="./courses/javascript.html">JavaScript</a></p>
+            <p><a href="./courses/java.html">Java</a></p>
+          </div>
+        </div>
+        <div class="footer_end">
+          <div class="footer2">
+            <div class="footerText1">
+              <a href="./privacy-policy.html">Privacy Policy</a>
+              <a href="./terms-and-conditions.html">Terms & conditions</a>
+            </div>
+            <div class="footerText2">
+              <span>Made with &#10084; from BRAINCODE &#169; 2023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+    <script src="./js/sliderReview.js"></script>
+  </body>
+</html>

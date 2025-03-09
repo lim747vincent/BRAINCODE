@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+/* subpage-banner section */
+.subpage-banner {
+  background: #1c1c20 url("../img/subpage-banner.png");
+  background-repeat: no-repeat;
+  background-position: 50% 52%;
+  background-size: cover;
+  height: 40vh;
+}
+
+.subpage-banner .banner-container {
+  height: 140%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subpage-banner h2 {
+  color: #fff;
+}
+
+/* about us */
+.aboutUsSection {
+  background: #1c1c20 url("../img/background-pattern.png");
+  color: #fff;
+  padding: 100px 0;
+}
+
+article#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+article#header .leftHeader,
+article#header .rightHeader {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+article#header .leftHeader {
+  padding: 0 40px;
+}
+
+article#header .leftHeader h3 {
+  font-size: 35px;
+  padding-bottom: 30px;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+article#header .rightHeader img {
+  width: 100%;
+  filter: grayscale(100);
+  margin: 0;
+  border-radius: 10px;
+}
+
+.messageContainer {
+  padding-bottom: 0px;
+}
+
+div#message {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  background-color: #0f0f11;
+  border-radius: 15px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+div#message h3 {
+  text-align: center;
+  font-size: 20px;
+  margin: 0 20px;
+  line-height: 1em;
+}
+
+div#instruction {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+div#instruction > img {
+  width: 50%;
+  filter: grayscale(100);
+  border-radius: 10px;
+}
+
+div#instruction > p {
+  width: 50%;
+  padding-left: 50px;
+}
+
+div#instruction > p strong {
+  font-size: 30px;
+  display: inline-block;
+  margin-bottom: 20px;
+  line-height: 1.2em;
+}
+
+.emojiSection h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+div#emoji {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 120px;
+}
+
+div#emoji .emojiIndivi {
+  margin: 10px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+div#emoji .emojiIndivi img {
+  text-align: center;
+}
+
+div#emoji p {
+  line-height: 1.3em;
+  text-align: center;
+  padding: 10px;
+}
+
+div#emoji p span {
+  font-size: 13px;
+  color: #c3bfbf;
+}
+
+div#emoji1 > img {
+  height: auto;
+}
+
+div#emoji2 > img {
+  height: auto;
+}
+
+div#emoji3 > img {
+  height: auto;
+}
+
+div#emoji4 > img {
+  height: auto;
+}
+
+div#studentreview > h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.aboutUsSection h3 {
+  margin: 0 0 0;
+  text-align: left;
+  align-items: center;
+}
+
+div#button-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#button-container > button {
+  width: 2cm;
+  height: 1cm;
+  margin: 10px;
+  font-size: large;
+  background-color: #ed762f;
+}
+
+.aboutUsSection img {
+  width: 3cm;
+}
+
+.koreanReviewSection {
+  background-color: #0f0f11;
+  padding: 40px 100px;
+  border-radius: 15px;
+}
+
+.koreaStudentReivew h2 {
+  padding-bottom: 50px;
+}
+
+.tableRowImg {
+  object-fit: cover;
+  padding-right: 50px;
+}
+
+.koreanReviewSection .titleName {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+/* 1024 * 768 */
+@media screen and (max-width: 1024px) {
+  /* subpage banner */
+  .subpage-banner {
+    height: 30vh;
+  }
+
+  /* our founders */
+  article#header .leftHeader h3 {
+    font-size: 30px;
+  }
+
+  .messageContainer {
+    padding: 0;
+  }
+
+  div#emoji p span {
+    font-size: 14px;
+  }
+}
+
+/* 390 * 844 */
+@media screen and (max-width: 391px) {
+  .subpage-banner {
+    height: 20vh;
+  }
+
+  .aboutUsSection {
+    padding: 80px 0;
+  }
+
+  article#header {
+    flex-direction: column;
+  }
+
+  article#header .leftHeader {
+    padding: 0;
+  }
+
+  article#header .leftHeader,
+  article#header .rightHeader {
+    width: 100%;
+  }
+
+  article#header .rightHeader img {
+    padding-top: 30px;
+  }
+
+  div#message {
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+
+  div#message h3 {
+    margin: 20px 0;
+  }
+
+  div#instruction {
+    flex-direction: column;
+  }
+
+  div#instruction > img {
+    width: 100%;
+  }
+
+  div#instruction > p {
+    padding: 0;
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  div#emoji {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  div#emoji .emojiIndivi {
+    width: 100%;
+  }
+
+  .koreanReviewSection {
+    display: none;
+  }
+}

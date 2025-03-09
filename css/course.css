@@ -1,0 +1,306 @@
+@charset "utf-8";
+
+/* subpage-banner section */
+.subpage-banner {
+  background: #1c1c20 url("../img/subpage-banner.png");
+  background-repeat: no-repeat;
+  background-position: 50% 52%;
+  background-size: cover;
+  height: 40vh;
+}
+
+.subpage-banner .banner-container {
+  height: 140%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subpage-banner h2 {
+  color: #fff;
+}
+
+/*  course */
+.courseContainer {
+  display: flex;
+}
+
+.course {
+  background: #1c1c20 url("../img/background-pattern.png");
+  padding: 50px 0;
+}
+
+.sidebar {
+  width: 20%;
+}
+
+.mainArticle {
+  width: 80%;
+}
+
+.sidebar * {
+  color: #fff;
+}
+
+.list-item {
+  padding-bottom: 10px;
+}
+
+#languageList a {
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#languageList a:hover {
+  color: #ed762f;
+}
+
+.arrow {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border: solid black;
+  border-width: 0 0.25rem 0.25rem 0;
+  transform: translateY(0.1rem) rotate(45deg);
+  transition: transform 0.3s ease;
+  margin-left: 1rem;
+  padding-bottom: 5px;
+}
+
+.rotate {
+  transform: translateY(-0.2rem) rotate(-135deg);
+}
+
+.language {
+  padding: 20px;
+}
+
+.language h1 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.language h1:hover {
+  cursor: pointer;
+  color: #ed762f;
+}
+
+.list-item::before {
+  content: "➤ ";
+  margin-right: 5px;
+}
+
+.description {
+  background-color: #0f0f11;
+  width: 75%;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.description * {
+  color: #fff;
+}
+
+.description h2 {
+  padding-top: 20px;
+}
+
+.description p {
+  padding-top: 20px;
+  max-width: 600px;
+  word-wrap: break-word;
+  word-spacing: 0.3em;
+}
+
+.description .title {
+  padding-top: 0;
+}
+
+.lan_class {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.col {
+  margin: 10px;
+  width: 40%;
+  background-color: #fff;
+  height: auto;
+}
+
+.col h3 {
+  font-weight: bold;
+  font-size: 1.3;
+  font-weight: normal;
+  padding: 10px 10px;
+  font-size: 18px;
+  text-align: left;
+  background-color: #0f0f11;
+  color: white;
+}
+
+.col p {
+  padding-left: 5px;
+}
+
+.sub_title {
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+blockquote {
+  background-color: lightgrey;
+  color: black;
+  padding: 20px;
+  border: 1px solid black;
+  width: 33.33%;
+  float: left;
+  margin-right: 2%;
+}
+
+.lan_class h1 {
+  font-family: holigas;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.lan_class blockquote {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.lan_class blockquote:hover {
+  transform: translate(5px, -5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.sub_descrip {
+  padding-bottom: 10px;
+}
+
+.enroll-btn {
+  background-color: #ed762f;
+  width: 40%;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  margin-top: 20px;
+  display: block;
+}
+
+a.enroll-btn {
+  text-decoration: none;
+  color: black;
+}
+
+.enroll-btn:hover {
+  background: #ff8c49;
+}
+
+.banner_desc {
+  background: #1c1c20 url("../img/background-pattern.png");
+}
+
+.banner_descContainer {
+  display: flex;
+  padding: 50px 0 100px;
+  justify-content: center;
+}
+
+.banner_desc .desc1 {
+  width: 20%;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.banner_desc .desc1 h1 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.banner_desc .desc1 p {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+
+  font-size: 14px;
+  word-wrap: break-word;
+  line-height: 1.1em;
+}
+
+.banner_desc .desc1 img {
+  padding-bottom: 20px;
+  width: 60px;
+}
+
+/* 1024 * 768 */
+@media screen and (max-width: 1024px) {
+  /* subpage banner */
+  .subpage-banner {
+    height: 30vh;
+  }
+
+  .language {
+    padding: 0;
+    padding-top: 20px;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .description p {
+    font-size: 14px;
+  }
+
+  .lan_class {
+    padding-right: 0;
+    justify-content: center;
+  }
+
+  .col {
+    width: 45%;
+  }
+
+  .enroll-btn {
+    width: 50%;
+  }
+}
+
+/* 390 * 844 */
+@media screen and (max-width: 391px) {
+  .subpage-banner {
+    height: 20vh;
+  }
+
+  .subpage-banner h2 {
+    line-height: 1.2em;
+    font-size: 20px;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .mainArticle {
+    width: 100%;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .banner_descContainer {
+    flex-direction: column;
+  }
+
+  .banner_desc .desc1 {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+}

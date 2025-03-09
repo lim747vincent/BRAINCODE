@@ -1,0 +1,454 @@
+@charset "utf-8";
+
+/* subpage-banner section */
+.subpage-banner {
+  background: #1c1c20 url("../img/subpage-banner.png");
+  background-repeat: no-repeat;
+  background-position: 50% 52%;
+  background-size: cover;
+  height: 40vh;
+}
+
+.subpage-banner .banner-container {
+  height: 140%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subpage-banner h2 {
+  color: #fff;
+}
+
+/* hire graduate */
+.hireGraduateSection {
+  padding: 50px 0;
+  background: #1c1c20 url("../img/background-pattern.png");
+  color: #fff;
+}
+
+.hireGraduateSection article#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hireGraduateSection article#header > h2 {
+  text-align: center;
+  display: block;
+  padding: 30px;
+}
+
+.hireGraduateSection div#benefit > h2 {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+.iconsContainer {
+  padding-bottom: 100px;
+}
+
+.hireGraduateSection .icons {
+  background-color: #0f0f11;
+  color: #fff;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 10px;
+}
+
+.hireGraduateSection .icons img {
+  filter: invert(100%) sepia(1%) saturate(2%) hue-rotate(207deg)
+    brightness(104%) contrast(100%);
+  padding-bottom: 20px;
+}
+
+.hireGraduateSection div#icon_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hireGraduateSection div#icon_1 > div#icon1,
+.hireGraduateSection div#icon2 {
+  flex-basis: 50%;
+}
+
+.hireGraduateSection div#icon_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hireGraduateSection div#icon_2 > div#icon3,
+.hireGraduateSection div#icon4 {
+  flex-basis: 50%;
+}
+
+.hireGraduateSection div#icon1 > img {
+  width: 2cm;
+  height: auto;
+}
+
+.hireGraduateSection div#icon2 > img {
+  width: 2cm;
+  height: auto;
+}
+
+.hireGraduateSection div#icon3 > img {
+  width: 2cm;
+  height: auto;
+}
+
+.hireGraduateSection div#icon4 > img {
+  width: 2cm;
+  height: auto;
+}
+
+.hireGraduateSection div#icon1 > p {
+  padding: 0 15px 0 0;
+}
+
+.hireGraduateSection div#icon2 > p {
+  padding: 0 15px 0 0;
+}
+
+.hireGraduateSection div#icon3 > p {
+  padding: 0 15px 0 0;
+}
+
+.hireGraduateSection div#icon4 > p {
+  padding: 0 15px 0 0;
+}
+
+.hireGraduateSection #reason {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.hireGraduateSection #reason .leftReason,
+.hireGraduateSection #reason .rightReason {
+  width: 50%;
+}
+
+.hireGraduateSection #reason .leftReason {
+  display: flex;
+  justify-content: center;
+}
+
+.hireGraduateSection #reason .leftReason img {
+  width: 90%;
+  border-radius: 15px;
+  filter: grayscale(100);
+}
+
+.hireGraduateSection #reason .rightReason .topContent h2 {
+  line-height: 1.1em;
+  padding-bottom: 20px;
+}
+
+.hireGraduateSection #reason .rightReason .topContent p {
+  line-height: 1.1em;
+  padding-bottom: 15px;
+}
+
+.hireGraduateSection #reason .rightReason {
+  padding: 20px 10px;
+}
+
+.hireGraduateSection .bottomContent .reasonText {
+  padding-bottom: 10px;
+}
+
+.hireGraduateSection .bottomContent img {
+  width: 5%;
+  margin-right: 15px;
+  filter: invert(0%) sepia(96%) saturate(20%) hue-rotate(342deg)
+    brightness(102%) contrast(100%);
+}
+
+.hireGraduateSection div#reason1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hireGraduateSection div#reason2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hireGraduateSection div#reason3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hireGraduateSection div#reason4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hireGraduateSection .teamSection {
+  padding-bottom: 100px;
+}
+
+.hireGraduateSection #team {
+  text-align: center;
+}
+
+.hireGraduateSection #team h2 {
+  padding: 20px;
+}
+
+.hireGraduateSection #team p {
+  padding: 15px;
+}
+
+.hireGraduateSection .teamBottomContainer {
+  background-color: #1c1c20;
+  border: 1px solid #ed762f;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hireGraduateSection div#button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ed762f;
+}
+
+.hireGraduateSection div#button-container > button {
+  width: 100%;
+  height: 1.5cm;
+  font-size: 18px;
+  background-color: #ed762f;
+  color: #fff;
+}
+
+.hireGraduateSection div#button-container > button.active {
+  background-color: #ed762f;
+  color: #000;
+}
+
+.hireGraduateSection div#info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 80px 20px;
+}
+
+.hireGraduateSection div#info1 > h3 {
+  float: left;
+  text-align: center;
+  color: #000;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20%/100%;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.hireGraduateSection div#info2 > h3 {
+  float: left;
+  text-align: center;
+  color: #000;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20%/100%;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.hireGraduateSection div#info3 > h3 {
+  float: left;
+  text-align: center;
+  color: #000;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20%/100%;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.hireGraduateSection div#info4 > h3 {
+  float: left;
+  text-align: center;
+  color: #000;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20%/100%;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.talentContainer {
+  background-color: #0f0f11;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.talentContainer #TalentedGraduates {
+  text-align: center;
+}
+
+.talentContainer #TalentedGraduates h2 {
+  padding-bottom: 40px;
+}
+
+.talentContainer #TalentedGraduates p {
+  padding: 0 0 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hireGraduateSection div#TalentedGraduatesperson {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hireGraduateSection div#person1 > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hireGraduateSection div#person2 > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hireGraduateSection div#person3 > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hireGraduateSection div#person4 > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hireGraduateSection div#TalentedGraduatesperson h3,
+.hireGraduateSection div#TalentedGraduatesperson p {
+  text-align: center;
+}
+
+.hireGraduateSection div#TalentedGraduatesperson h3 {
+  padding: 10px 0 0;
+  font-size: 20px;
+}
+
+.hireGraduateSection div#TalentedGraduatesperson p {
+  font-size: 15px;
+}
+
+/* 1024 * 768 */
+@media screen and (max-width: 1024px) {
+  /* subpage banner */
+  .subpage-banner {
+    height: 30vh;
+  }
+
+  /* benefits of becoming hiring partner */
+  .hireGraduateSection div#icon1 > img,
+  .hireGraduateSection div#icon2 > img,
+  .hireGraduateSection div#icon3 > img,
+  .hireGraduateSection div#icon4 > img {
+    width: 1.4cm;
+  }
+
+  /* why recruit graduate */
+  .hireGraduateSection .bottomContent h3 {
+    font-size: 14px;
+  }
+
+  /* build your team */
+  .hireGraduateSection div#info1 > h3,
+  .hireGraduateSection div#info2 > h3,
+  .hireGraduateSection div#info3 > h3,
+  .hireGraduateSection div#info4 > h3 {
+    font-size: 14px;
+  }
+
+  /* our talented graduates */
+  .hireGraduateSection div#person1 > img,
+  .hireGraduateSection div#person2 > img,
+  .hireGraduateSection div#person3 > img,
+  .hireGraduateSection div#person4 > img {
+    height: 100%;
+    padding-bottom: 10px;
+  }
+
+  .hireGraduateSection div#person1,
+  .hireGraduateSection div#person2,
+  .hireGraduateSection div#person3,
+  .hireGraduateSection div#person4 {
+    padding-right: 40px;
+  }
+}
+
+/* 390 * 844 */
+@media screen and (max-width: 391px) {
+  .subpage-banner {
+    height: 20vh;
+  }
+
+  .hireGraduateSection article#header > h2,
+  .hireGraduateSection div#benefit > h2,
+  .hireGraduateSection #team h2,
+  .talentContainer #TalentedGraduates h2 {
+    line-height: 1.2em;
+  }
+
+  .iconsContainer {
+    width: 100%;
+  }
+
+  .hireGraduateSection div#icon_1,
+  .hireGraduateSection div#icon_2 {
+    flex-direction: column;
+  }
+
+  .hireGraduateSection #reason .leftReason {
+    display: none;
+  }
+
+  .hireGraduateSection #reason .rightReason {
+    width: 100%;
+  }
+
+  .hireGraduateSection div#button-container {
+    flex-direction: column;
+  }
+
+  .hireGraduateSection div#TalentedGraduatesperson {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hireGraduateSection div#person1,
+  .hireGraduateSection div#person2,
+  .hireGraduateSection div#person3,
+  .hireGraduateSection div#person4 {
+    padding-right: 0;
+    padding-top: 20px;
+  }
+
+  .hireGraduateSection div#person1 > img,
+  .hireGraduateSection div#person2 > img,
+  .hireGraduateSection div#person3 > img,
+  .hireGraduateSection div#person4 > img {
+    border-radius: 0;
+  }
+}
